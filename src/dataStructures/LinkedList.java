@@ -2,7 +2,7 @@ package dataStructures;
 
 import java.util.*;
 
-public class LinkedList<E> implements List {
+public class LinkedList<E> {
     private class Node {
         Node next;
         E data;
@@ -18,6 +18,10 @@ public class LinkedList<E> implements List {
 
     public LinkedList() {
         head = null;
+    }
+
+    public void add(E obj) {
+
     }
 
 }
