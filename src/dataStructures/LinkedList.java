@@ -18,12 +18,36 @@ public class LinkedList {
         head = null;
     }
 
-    public void add(int data) {
+    public Node add(int data) {
+        Node cur = head;
 
+        if (head == null) {
+            head = new Node(data);
+            return head;
+        }
+
+        while (cur != null) {
+            if(cur.next == null) {
+                cur.next = new Node(data);
+                return head;
+            }
+            cur = cur.next;
+        }
+        return head;
     }
 
     public int get(int index) {
-        return 0;
+        Node cur = head;
+        int count = 0;
+
+        while (count <= index) {
+            if(count == index) {
+                return cur.data;
+            }
+            cur = cur.next;
+            count++;
+        }
+        return -1;
     }
 
 }
