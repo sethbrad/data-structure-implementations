@@ -4,7 +4,7 @@ import dataStructures.LinkedList;
 
 public class LLTests {
     public static void main(String[] args) {
-        LinkedList<Integer> list = new LinkedList<Integer>();
+        LinkedList list = new LinkedList();
 
         list.add(5);
         list.add(3);

@@ -1,13 +1,11 @@
 package dataStructures;
 
-import java.util.*;
-
-public class LinkedList<E> {
+public class LinkedList {
     private class Node {
         Node next;
-        E data;
+        int data;
 
-        Node(E data) {
+        Node(int data) {
             this.data = data;
             this.next = null;
         }
@@ -20,8 +18,12 @@ public class LinkedList<E> {
         head = null;
     }
 
-    public void add(E obj) {
+    public void add(int data) {
 
+    }
+
+    public int get(int index) {
+        return 0;
     }
 
 }
