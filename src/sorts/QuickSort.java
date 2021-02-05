@@ -1,6 +1,6 @@
 package sorts;
 
-public class MergeSort extends AbstractSort {
+public class QuickSort extends AbstractSort {
 
     public static int[] sort(int[] arr) {
         return arr;
