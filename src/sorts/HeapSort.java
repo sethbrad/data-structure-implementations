@@ -1,9 +1,8 @@
 package sorts;
 
-public class InsertionSort extends AbstractSort {
+public class HeapSort extends AbstractSort {
+    public static void sort(int[] arr) {
 
-    public static int[] sort(int[] arr) {
-        return arr;
     }
 
     public static void main(String[] args) {
