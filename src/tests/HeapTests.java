@@ -10,11 +10,10 @@ public class HeapTests {
         h.insert(3);
         h.insert(4);
         h.insert(5);
-        h.insert(6);
 
         System.out.println(h.getHeap().toString());
 
-        h.remove(6);
+        h.remove(5);
         System.out.println(h.getHeap().toString());
 
     }
